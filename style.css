@@ -19,9 +19,18 @@ section h2 {
     height: 100vh;
     text-align: center;
     line-height: 100vh;
-    font-size: 10vw;
+    /* font-size: 10vw; */
     color: #fff;
-    font-weight: 700;
+    /* font-weight: 700; */
+}
+
+.logoDD {
+    max-width: 500px;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner {
@@ -56,18 +65,18 @@ section h2 {
 @keyframes animate {
     0% {
         opacity: 0;
-        transform: scale(0) translateY(1000px);
+        /* transform: scale(0) translateY(1000px); */
     }
     50% {
         opacity: 1;
-        background: url(./Visus/1Road.jpg);
+        background: url(./Visus/3Ice.jpg);
         background-position: center;
         background-attachment: fixed;
     }
     100% {
         opacity: 1;
-        transform: scale(1) translateY(0px);
-        background: url(./Visus/1Road.jpg);
+        /* transform: scale(1) translateY(0px); */
+        background: url(./Visus/3Ice.jpg);
         background-position: center;
         background-attachment: fixed;
     }
